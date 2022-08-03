@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 16px; 
+    background-color: #1F2937;
+    color: white; 
+    justify-content: space-around;
+    margin: -8px;
+    font: roboto;
+}
+
+.header1 {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+
+}
