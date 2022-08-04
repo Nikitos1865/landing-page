@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     width: 100%;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -37,7 +38,8 @@ body {
 
 .text-button {
     padding: 0px;
-    width: 32.5%;
+    width: 32%;
+    align-items: flex-start;
 }
 
 .container-1 {
@@ -47,12 +49,12 @@ body {
     justify-content: center;
     width: 100%;
     padding-top:48px; 
-    padding-bottom: 48px; 
+    padding-bottom: 96px; 
 
 }
 
 .chip-img {
-    min-width: 32.5%;
+    min-width: 32%;
     height: 228px; 
     object-fit: cover;
 }
@@ -63,9 +65,75 @@ a {
     font-weight: bold; 
 }
 
+.sq-img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border: #3882F6;
+    border-style: solid; 
+    border-radius: 12px; ;
+}
+
+.boxes {
+    padding: 16px;
+    display: flex; 
+    justify-content: center;
+    gap: 40px; 
+    padding-bottom: 50px;
+}
+
+.box {
+    width: 200px; 
+    text-align: center;
+    color: #1F2937
+}
+
 .white-background {
     display: flex; 
     flex-direction: column;
+    padding: 48px; 
+}
+
+.white-header {
+    display: flex; 
+    font-size: 24pt;
+    font-weight: 900;
+    padding: 24px; 
+    padding-bottom: 12px; 
+    align-content: center;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.gray-background {
+    display: flex; 
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 52px; 
+}
+
+.quote {
+    display: flex; 
+    flex-direction: column;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 48px; 
+    width: 60%; 
+}
+
+.author {
+    font-style: normal;
+    font-size: 24pt;
+    color: #1F2937;
+    font-weight: 700; 
+    align-self: flex-end;
+    padding-right: 56px;
+}
+
+.footer {
+    
 }
 
 button {
